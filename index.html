@@ -157,7 +157,7 @@
       <div class="left">
         <img class="cover" src="tc_cover.jpg" alt="Trench Dispatch #1 cover" />
 
-        <a class="download" id="download-trench-dispatch" href="Trench-Dispatch.pdf" download>
+        <a class="download" id="download-trench-dispatch" href="/download">
           Download Trench Dispatch #1
         </a>
       </div>
@@ -185,23 +185,6 @@
       'floating-chat.donateButton.background-color': '#00b9fe',
       'floating-chat.donateButton.text-color': '#fff'
     });
-  </script>
-
-  <script>
-    (function () {
-      const downloadLink = document.getElementById('download-trench-dispatch');
-      if (!downloadLink) return;
-
-      downloadLink.addEventListener('click', function () {
-        if (window.zaraz && typeof window.zaraz.track === 'function') {
-          window.zaraz.track('trench_dispatch_download', {
-            file: 'Trench-Dispatch.pdf',
-            edition: '1',
-            source: 'download_link'
-          });
-        }
-      });
-    })();
   </script>
 
 </body>
