@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "include": [
+    "/download",
+    "/api/download-count"
+  ],
+  "exclude": []
+}
