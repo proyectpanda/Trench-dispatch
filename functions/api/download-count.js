@@ -24,7 +24,7 @@ export async function onRequestGet(context) {
 
   return Response.json(
     {
-      file: 'Trench-Dispatch.pdf',
+      file: 'TrenchDispatch_01c.pdf',
       edition: 1,
       downloads: row?.count ?? 0,
       updated_at: row?.updated_at ?? null
