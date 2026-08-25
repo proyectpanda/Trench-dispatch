@@ -21,6 +21,6 @@ export async function onRequestGet(context) {
       updated_at = CURRENT_TIMESTAMP
   `).run();
 
-  const pdfUrl = new URL('/Trench-Dispatch.pdf', request.url);
+  const pdfUrl = new URL('/TrenchDispatch_01c.pdf', request.url);
   return Response.redirect(pdfUrl.toString(), 302);
 }
