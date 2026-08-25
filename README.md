@@ -7,7 +7,7 @@ Source files for the Trench Dispatch website.
 - `index.html` — website layout and Ko-fi floating button
 - `tc_cover.jpg` — Trench Dispatch cover
 - `panda.png` — Project Panda avatar
-- `Trench-Dispatch.pdf` — downloadable rules update PDF
+- `TrenchDispatch_01c.pdf` — current downloadable Trench Dispatch #1 PDF
 
 ## Deployment
 
